@@ -82,3 +82,9 @@ div.botao button:hover {
   color: var(--branco);
   translate: 1px;
 }
+
+.auten {
+  color: var(--branco);
+}
+
+

@@ -1,0 +1,43 @@
+@media all and (min-width: 0px) and (max-width: 374px) {
+  section {
+    width: 250px;
+    height: 280px;
+  }
+  section img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media all and (min-width: 375px) and (max-width: 600px) {
+  section {
+    width: 300px;
+    height: 330px;
+  }
+  section img {
+    width: 175px;
+    height: 175px;
+  }
+}
+
+@media all and (min-width: 601px) and (max-width: 800px) {
+  section {
+    width: 350px;
+    height: 380px;
+  }
+  section img {
+    width: 215px;
+    height: 215px;
+  }
+}
+
+@media all and (min-width: 801px) {
+  section {
+    width: 500px;
+    height: 430px;
+  }
+  section img {
+    width: 275px;
+    height: 275px;
+  }
+}
