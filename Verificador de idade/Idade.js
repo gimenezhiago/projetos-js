@@ -9,8 +9,9 @@ function verificar() {
 
   var img = document.createElement("img");
   img.setAttribute("id", "picture");
-  img.style.width = '250px'
-  img.style.height = '250px'
+  img.style.width = '200px'
+  img.style.height = '200px'
+  img.style.borderRadius = '50%'
 
   if (yearnas <= 0 || yearnas > yearnow) {
     window.alert("Dados incosistentes [ERRO]");
@@ -78,6 +79,9 @@ function verificar() {
     }
 
     var name = document.querySelector("#name").value;
+    if (name == '') {
+        window.alert("Dados incosistentes [ERRO]");
+    }
     res.innerHTML = `O(a) ${name} é um(a) ${sexo} e tem ${conta} anos`;
     res.appendChild(img)
   }
