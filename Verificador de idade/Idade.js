@@ -12,6 +12,7 @@ function verificar() {
   img.style.width = '200px'
   img.style.height = '200px'
   img.style.borderRadius = '50%'
+  img.style.border = '1.5px solid black'
 
   if (yearnas <= 0 || yearnas > yearnow) {
     window.alert("Dados incosistentes [ERRO]");
