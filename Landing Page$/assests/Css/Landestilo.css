@@ -6,6 +6,7 @@
 :root {
     --primary-color: #0A1128;
     --white-color: #FFFFFF;
+    --gap: 3rem;
 
 }
 * {
@@ -70,6 +71,7 @@ h6 {
 .main-content {
     max-width: 1200px;
     margin: 0 auto;
+    padding: var(--gap);
 }
 
 .section { 
