@@ -2,10 +2,12 @@ var agora = new Date();
 var date = agora.getDay();
 var res = document.querySelector("#res");
 var gp1 = document.querySelector(".gp1");
+var fig = document.querySelector("#fig")
 var img = document.querySelector("#picture");
 img.style.width = "50vw";
 img.style.height = "100vh";
 
+date = 0
 switch (date) {
   case 0:
     date = "Domingo";
@@ -13,7 +15,8 @@ switch (date) {
       "src",
       "https://i.pinimg.com/originals/d9/05/ab/d905ab5fb06d41de16b89a128a41cedd.jpg"
     );
-    gp1.style.background = "";
+    gp1.style.background = "#a2d2ff";
+    fig.setAttribute("src")
     break;
   case 1:
     date = "Segunda";
