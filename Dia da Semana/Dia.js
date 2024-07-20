@@ -3,9 +3,8 @@ var date = agora.getDay();
 var res = document.querySelector("#res");
 var gp1 = document.querySelector(".gp1");
 var img = document.querySelector("#picture");
-img.style.width = "50vw";
-img.style.height = "100vh";
 
+date = 0
 var domingo = `./Img/Domingo.svg`;
 var segunda = `./Img/Segunda.svg`;
 var terca = `./Img/Terça.svg`;

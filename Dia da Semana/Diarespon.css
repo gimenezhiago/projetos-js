@@ -1,0 +1,60 @@
+@media all and (min-width: 0px) and (max-width: 374px) {
+  .gp1 {
+    width: 100vw;
+    height: 30vh;
+  }
+  .gp2 {
+    width: 100vw;
+    height: 70vh;
+  }
+  .gp2 #picture {
+    width: 100vw;
+    height: 70vh;
+  }
+}
+
+@media all and (min-width: 375px) and (max-width: 600px) {
+  .gp1 {
+    width: 100vw;
+    height: 30vh;
+  }
+  .gp2 {
+    width: 100vw;
+    height: 70vh;
+  }
+  .gp2 #picture {
+    width: 100vw;
+    height: 70vh;
+  }
+}
+
+@media all and (min-width: 601px) and (max-width: 1000px) {
+  .gp1 {
+    width: 100vw;
+    height: 30vh;
+  }
+  .gp2 {
+    width: 100vw;
+    height: 70vh;
+  }
+  .gp2 #picture {
+    width: 100vw;
+    height: 70vh;
+  }
+
+}
+
+@media all and (min-width: 1001px) {
+  .gp1 {
+    width: 50vw;
+    height: 100vh;
+  }
+  .gp2 {
+    width: 50vw;
+    height: 100vh;
+  }
+  .gp2 #picture {
+    width: 50vw;
+    height: 100vh;
+  }
+}
