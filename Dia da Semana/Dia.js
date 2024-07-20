@@ -4,7 +4,6 @@ var res = document.querySelector("#res");
 var gp1 = document.querySelector(".gp1");
 var img = document.querySelector("#picture");
 
-date = 0
 var domingo = `./Img/Domingo.svg`;
 var segunda = `./Img/Segunda.svg`;
 var terca = `./Img/Terça.svg`;
