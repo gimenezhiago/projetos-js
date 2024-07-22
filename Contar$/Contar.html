@@ -8,15 +8,25 @@
     <title>Vamos Contar</title>
   </head>
   <body>
-    <h1>Vamos contar</h1>
-    <label for="start">Início:</label>
-    <input type="number" name="start" id="start" min="0" />
-    <label for="end">Fim:</label>
-    <input type="number" name="end" id="end" min="0" />
-    <label for="pass">Passo:</label>
-    <input type="number" name="pass" id="pass" min="1" />
-    <button id="button" onclick="Contar()">Contar</button>
-    <div id="res"></div>
+    <div class="container">
+        <h1 class="header">Vamos contar</h1>
+        <section class="main-container">
+          <p>
+            <label for="start">Início:</label>
+        </p>
+        <input type="number" name="start" id="start" min="0" />
+          <p>
+            <label for="end">Fim:</label>
+        </p>
+        <input type="number" name="end" id="end" min="0" />
+          <p>
+            <label for="pass">Passo:</label>
+        </p>
+        <input type="number" name="pass" id="pass" min="1" />
+          <button id="button" onclick="Contar()">Contar</button>
+        </section>
+        <div id="res">Preparando a conta...</div>
+    </div>
 
     <script src="./Contar.js"></script>
   </body>

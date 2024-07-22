@@ -13,14 +13,21 @@ function Contar() {
     pass = parseFloat(pass);
 
     res.innerHTML = "";
+
+    if (pass <= 0) {
+        window.alert("O passo não teve algarismo, ele passará a ser 1 [Passo == 1]")
+        pass = 1
+    }
+
     if (start < end) {
       for (var h = start; h <= end; h += pass) {
-        res.innerHTML += `${h}`;
+        res.innerHTML += `\u{1F449} ${h} `;
       }
     } else if (start > end) {
-      for (var h = start; h <= end; h -= pass) {
-        res.innerHTML += `${h}`;
+      for (var h = start; h >= end; h -= pass) {
+        res.innerHTML += `\u{1F449} ${h} `;
       }
     }
+    res.innerHTML += `\u{1F985}`
   }
 }
