@@ -19,7 +19,7 @@ body {
   justify-content: center;
   width: 100vw;
   min-height: 100vh;
-  max-height: 500vh;
+  max-height: 1000vh;
   background-image: url(./Img/background.svg);
   font-family: var(--font);
   font-weight: 400;
