@@ -15,7 +15,7 @@ function Contar() {
     res.innerHTML = "";
 
     if (pass <= 0) {
-        window.alert("O passo não teve algarismo, ele passará a ser 1 [Passo == 1]")
+        window.alert("O passo não teve algarismo natural, ele passará a ser 1 [Passo == 1]")
         pass = 1
     }
 
