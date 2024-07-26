@@ -1,6 +1,6 @@
 function Contar() {
   var res = document.querySelector("div#res");
-  var header = document.querySelector("h1.header")
+  var header = document.querySelector("h1.header");
 
   var start = document.querySelector("#start").value;
   var end = document.querySelector("#end").value;
@@ -14,10 +14,13 @@ function Contar() {
     pass = parseFloat(pass);
 
     res.innerHTML = "";
+    header.innerHTML = "";
 
     if (pass <= 0) {
-        window.alert("O passo não teve algarismo natural, ele passará a ser 1 [Passo == 1]")
-        pass = 1
+      window.alert(
+        "O passo não teve algarismo natural, ele passará a ser 1 [Passo == 1]"
+      );
+      pass = 1;
     }
 
     if (start < end) {
@@ -29,7 +32,7 @@ function Contar() {
         res.innerHTML += `\u{1F449} ${h} `;
       }
     }
-    res.innerHTML += `\u{1F985}`
-    header.innerHTML += `\u{1F618}`
+    res.innerHTML += `\u{1F985}`;
+    header.innerHTML += `Pronto \u{1F618}`;
   }
 }

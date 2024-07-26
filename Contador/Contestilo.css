@@ -25,6 +25,8 @@ body {
   font-weight: 400;
   font-size: 18px;
   overflow-x: hidden;
+  padding-top: 2.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .container {
