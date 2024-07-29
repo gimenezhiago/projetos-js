@@ -6,7 +6,9 @@ function Tabuada() {
   let tab = document.querySelector("#seltab");
   let fix = 1;
 
-  if (number.lenght != 0) {
+  if (number.value.lenght = 0) {
+    window.alert("Digite um número!!!");
+  } else {
     num = parseFloat(number.value);
     tab.innerHTML = "";
     while (fix <= 10) {
@@ -16,7 +18,5 @@ function Tabuada() {
       tab.appendChild(option);
       fix++;
     }
-  } else {
-    window.alert("Digite um número!!!");
   }
 }

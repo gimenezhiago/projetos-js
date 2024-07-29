@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,600;1,600&family=Varela+Round&display=swap");
+/*font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;*/
+
+:root {
+    --primary-color: #0089FF;
+    --bg-color: #4750568a;
+    --secundary-color: #F5C94B;
+}  
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-size: 1.313rem;
+  padding: 5rem 12.5rem;
+  background-image: url(./Img/Bg-body.svg);
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: inherit;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+
+img {
+  width: 18.75rem;
+  height: 6.25rem;
+  position: relative;
+  top: 15px;
+}
+
+.container label {
+    position: relative;
+    top: 1.125rem;
+    right: 1.1rem;
+    font-size: 1.1rem;
+}
+
+.container #number {
+  width: 18.75rem;
+  text-align: center;
+  border: none;
+  border-radius: .5rem;
+}
+
+.container #number:focus {
+  outline: none;
+}
+
+.container #button {
+  width: 5.9375rem;
+  height: 1.0625rem;
+  border-radius: .5rem;
+  border: none;
+}
+
+.container #seltab {
+  width: 18.75rem;
+  text-align: center;
+  border: none;
+  border-radius: .5rem;
+  overflow-y: hidden;
+}
