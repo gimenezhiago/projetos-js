@@ -1,0 +1,74 @@
+@media all and (min-width: 0px) and (max-width: 374px) {  
+    .container #number {
+    width: 18.25rem;
+    height: 1.125rem;
+  }
+
+  .container #button {
+    width: 5.9375rem;
+    height: 1.5rem;
+  }
+
+  .container #seltab {
+    width: 18.25rem;
+  }
+}
+
+@media all and (min-width: 375px) and (max-width: 600px) {
+  .container #number {
+    width: 18.25rem;
+    height: 1.125rem;
+  }
+
+  .container #button {
+    width: 5.9375rem;
+    height: 1.5rem;
+  }
+
+  .container #seltab {
+    width: 18.25rem;
+  }
+}
+
+@media all and (min-width: 601px) and (max-width: 800px) {
+  .container #number {
+    width: 18.5rem;
+    height: 1.125rem;
+  }
+
+  .container #button {
+    width: 5.9375rem;
+    height: 1.5rem;
+  }
+
+  .container #seltab {
+    width: 18.5rem;
+  }
+}
+
+@media all and (min-width: 801px) {
+  .container #number {
+    width: 18.75rem;
+    height: 1.125rem;
+  }
+
+  .container #button {
+    width: 6rem;
+    height: 1.5rem;
+  }
+
+  .container #seltab {
+    width: 18.75rem;
+  }
+}
+
+@media all and (min-height:915px) {
+    body {
+        justify-content: center;
+    }
+
+    .container {
+        justify-content: center;
+        gap: 1.875rem;
+    }
+}
