@@ -61,6 +61,12 @@ img {
   outline: none;
 }
 
+.container #number:hover,
+.container #button:hover,
+.container #seltab:hover {
+  background: var(--secundary-color);
+}
+
 .container #button {
   width: 5.9375rem;
   height: 1.0625rem;
@@ -75,3 +81,4 @@ img {
   border-radius: .5rem;
   overflow-y: hidden;
 }
+

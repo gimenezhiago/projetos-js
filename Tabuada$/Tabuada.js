@@ -6,10 +6,10 @@ function Tabuada() {
   let tab = document.querySelector("#seltab");
   let fix = 1;
 
-  if (number.value.lenght = 0) {
-    window.alert("Digite um número!!!");
+  if ((number.value.length === 0)) {
+    window.alert("[ERRO] Nenhum número foi escrito!");
   } else {
-    num = parseFloat(number.value);
+    let num = parseFloat(number.value);
     tab.innerHTML = "";
     while (fix <= 10) {
       let option = document.createElement("option");
