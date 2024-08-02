@@ -197,6 +197,7 @@ p {
 .grid-description {
   padding-bottom: 4rem;
 }
+
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
