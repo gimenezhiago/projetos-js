@@ -87,7 +87,7 @@ p {
 .main-content {
   max-width: 120rem;
   margin: 0 auto;
-  padding: var(--gap);
+  padding: 8rem var(--gap);
 }
 
 .section {
@@ -159,7 +159,7 @@ p {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   gap: var(--gap);
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .home-text-content,
@@ -177,14 +177,14 @@ p {
 .intro-content {
   height: 100vh;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   justify-content: center;
   max-width: 64rem;
   text-align: center;
 }
 
 .grid-one-content {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   flex-flow: column wrap;
@@ -221,4 +221,19 @@ p {
   top: -4rem;
   left: -1rem;
   transform: rotate(5deg);
+}
+
+.gallery-img {
+  width: 100%;
+  max-width: 25.5rem;
+  max-height: 25.5rem;
+  overflow: hidden;
+}
+
+.gallery-img img {
+  transition: all 300ms ease-in-out;
+}
+
+.gallery-img img:hover {
+  transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
 }
