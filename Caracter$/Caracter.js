@@ -1,21 +1,25 @@
 function btn(){
-    var area = gfdhgj
-    var res = document.querySelector("#res")
-    var select = document.querySelector("#select")
-    var letter = document.querySelector("#letter")
-    var text = document.querySelector("#text")
+    var area  = document.querySelector('#write').value
+    var select = document.querySelector('#select').value
+    var res = document.querySelector('#res')
+    var answer
 
-    if(select == text) {
-        let answer
-        area.lenght() = answer
-        res.innerHTML = ""
-        console.log( `O texto tem ${answer}`) 
-    }
-
-    else if (select == letter) {
-        let answer
-        area.contains() = answer
-        res.innerHTML = ""
-        console.log( `O texto tem ${answer}`) 
+    switch (select){
+        case 'letter':
+            for (var i = 0; i <= area.length; i++) {
+                if (area == '') {
+                    window.alert('Em branco')
+                } else if (area.length == '') {
+                    area.length = 0
+                }
+            }
+            res.innerHTML = ''
+            res.innerHTML = answer
+            break
+        case 'text':
+            answer = area.contains()
+            res.innerHTML = ''
+            res.innerHTML = answer
+            break
     }
 }
