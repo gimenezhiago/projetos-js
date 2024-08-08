@@ -35,4 +35,6 @@ function adicionar() {
   }
 }
 
-function finalizar() {}
+function finalizar() {
+  
+}
