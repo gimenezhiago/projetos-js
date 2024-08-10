@@ -72,6 +72,36 @@ p {
   margin-bottom: 1rem;
 }
 
+.responsive-table {
+  overflow-x: scroll;
+}
+
+table {
+  min-width: 20rem;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table caption {
+  font-style: italic;
+  font-size: 1.6rem;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+table td,
+table th {
+  white-space: nowrap;
+  text-align: left;
+  padding: 1rem;
+  border: 0.1rem solid var(--light-gray-color);
+}
+
+tfoot td,
+table th {
+  background: var(--light-gray-color);
+}
+
 .main-bg {
   background-image: url(../Img/main-bg.svg);
   background-size: cover;
