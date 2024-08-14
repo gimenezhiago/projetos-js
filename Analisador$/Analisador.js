@@ -66,6 +66,6 @@ function finalizar() {
     res_two.innerHTML += `O valor máximo da lista é ${max}.<br>`;
     res_two.innerHTML += `O valor mínimo da lista é ${min}.<br>`;
     res_two.innerHTML += `A soma da lista é ${soma}.<br>`;
-    res_two.innerHTML += `A media da lista é ${media}.<br>`;
+    res_two.innerHTML += `A média da lista é ${media}.<br>`;
   }
 }
