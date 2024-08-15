@@ -15,11 +15,11 @@ function btn() {
         }
         res.innerHTML = answer;
         break;
-      case "text":
-        for (let i = 0; i <= area.split("").lenght; i++) {
-          let arrayAnswer = []
-          arrayAnswer += i
-        }
+        case "text":
+          let arrayAnswer = [];
+          for (let i = 0; i < area.length; i++) {
+            arrayAnswer.push(`Text ${i + 1}: ${area[i]}`);
+          }
         res.innerHTML = answer
         break;
     }
