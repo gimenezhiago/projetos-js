@@ -1,0 +1,30 @@
+@media all and (min-width: 0) and (max-width: 389) {
+    .container-one {
+        max-width: 18rem;
+    }
+    .container-two {
+        flex-wrap: wrap;
+    }
+}
+
+@media all and (min-width:390px) and (max-width:449px) {
+    body {
+        display: flex;
+        align-items: center;
+    }
+    .container-one {
+        max-width: 20rem;
+    }
+    .container-two {
+        flex-wrap: wrap;
+    }
+}
+
+@media all and (min-width:450px) and (max-width:600px){
+    .container-one {
+        max-width: 22rem;
+    }
+    .container-two {
+        flex-wrap: wrap;
+    }
+}

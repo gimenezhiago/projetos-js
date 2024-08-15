@@ -61,11 +61,11 @@ function finalizar() {
     }
     var media = soma / total;
     res_one.innerHTML = "";
-    res_one.innerHTML += `Os valores: ${values}.<br>`
-    res_two.innerHTML += `A lista tem ${total} números.<br>`;
-    res_two.innerHTML += `O valor máximo da lista é ${max}.<br>`;
-    res_two.innerHTML += `O valor mínimo da lista é ${min}.<br>`;
-    res_two.innerHTML += `A soma da lista é ${soma}.<br>`;
-    res_two.innerHTML += `A média da lista é ${media}.<br>`;
+    res_one.innerHTML += `Os valores: <b>${values}</b>.<br>`
+    res_two.innerHTML += `A lista tem <b>${total}</b> números.<br>`;
+    res_two.innerHTML += `O valor máximo da lista é <b>${max}</b>.<br>`;
+    res_two.innerHTML += `O valor mínimo da lista é <b>${min}</b>.<br>`;
+    res_two.innerHTML += `A soma da lista é <b>${soma}</b>.<br>`;
+    res_two.innerHTML += `A média da lista é <b>${media}</b>.<br>`;
   }
 }
