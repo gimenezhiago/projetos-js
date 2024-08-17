@@ -4,17 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/Css/Landestilo.css" />
-    <link rel="stylesheet" href="assets/Css/Landrespon.css">
+    <link rel="stylesheet" href="assets/Css/Landrespon.css" />
     <title>Landing Page</title>
   </head>
   <body>
+    <input
+      type="checkbox"
+      id="close-menu"
+      class="close-menu"
+      aria-label="close menu"
+      role="button"
+    />
+    <label for="close-menu" class="close-menu-label" title="close menu"></label>
     <aside class="menu white-bg">
       <div class="main-content menu-content">
-        <h1>
+        <h1 onclick="getElementById('close-menu').checked = false">
           <a href="#home">LOGO</a>
         </h1>
         <nav>
-          <ul>
+          <ul onclick="getElementById('close-menu').checked = false">
             <li><a href="#intro">Intro</a></li>
             <li><a href="#grid-one">Grid-One</a></li>
             <li><a href="#gallery">Gallery</a></li>
@@ -267,19 +275,40 @@
             <legend>Contact me</legend>
             <div class="form-group">
               <label for="first-name">First Name</label>
-              <input type="text" name="first-name" id="first-name" placeholder="Your name">
+              <input
+                type="text"
+                name="first-name"
+                id="first-name"
+                placeholder="Your name"
+              />
             </div>
             <div class="form-group">
               <label for="last-name">Last Name</label>
-              <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+              <input
+                type="text"
+                name="last-name"
+                id="last-name"
+                placeholder="Your last name"
+              />
             </div>
             <div class="form-group">
               <label for="email">E-mail</label>
-              <input type="email" name="email" id="email" placeholder="Your e-mail">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Your e-mail"
+              />
             </div>
             <div class="form-group full-width">
               <label for="message">Message</label>
-              <textarea name="mssage" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+              <textarea
+                name="mssage"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Your message"
+              ></textarea>
             </div>
             <div class="form-group full-width">
               <button type="submit">Send Message</button>
@@ -292,5 +321,7 @@
     <footer id="footer" class="footer white-bg">
       <p>Feito por um Corinthiano 🦅 <b>Hiago Gimenez</b> 💪</p>
     </footer>
+
+    <a href="#" class="back-to-top">🡱</a>
   </body>
 </html>

@@ -343,3 +343,22 @@ body .full-width {
   margin: 0;
   padding: 3rem;
 }
+
+.close-menu {
+  display: none;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 3rem;
+  right: 2rem;
+  background: var(--white-color);
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: var(--primary-color);
+  border: 0.10rem solid var(--primary-color);
+}
