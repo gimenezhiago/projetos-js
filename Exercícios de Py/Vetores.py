@@ -5,5 +5,5 @@ for i in vetor:
 
 for i in range(0,10):
     if i % 2 != 0:
-        print("Os números qie estão em posições ímpares são: ")
+        print("Os números que estão em posições ímpares são: ")
         print(vetor[i])
